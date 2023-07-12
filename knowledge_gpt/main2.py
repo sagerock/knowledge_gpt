@@ -1,8 +1,8 @@
 import streamlit as st
 
-from knowledge_gpt.components.sidebar import sidebar
+from components.sidebar import sidebar
 
-from knowledge_gpt.ui import (
+from ui import (
     wrap_doc_in_html,
     is_query_valid,
     is_file_valid,
