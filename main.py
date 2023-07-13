@@ -24,8 +24,8 @@ MODEL = "openai"
 # For testing
 # EMBEDDING, VECTOR_STORE, MODEL = ["debug"] * 3
 
-st.set_page_config(page_title="KnowledgeGPT", page_icon="📖", layout="wide")
-st.header("📖KnowledgeGPT")
+st.set_page_config(page_title="Document Analyzer", page_icon="📖", layout="wide")
+st.header("Document Analyzer")
 
 # Enable caching for expensive functions
 bootstrap_caching()
