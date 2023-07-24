@@ -30,7 +30,7 @@ st.header("Document Analyzer")
 # Enable caching for expensive functions
 bootstrap_caching()
 
-sidebar()
+# sidebar()
 
 # openai_api_key = st.session_state.get("OPENAI_API_KEY")
 openai_api_key = st.secrets["API_KEYS"]["OPENAI_API_KEY"]
